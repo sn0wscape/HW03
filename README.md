@@ -22,6 +22,9 @@ Note #5, if you are trying to update or remake a graph you have previously made,
 
 #### What if need some ideas?
 Idea #1: Remake a figure from your own, a lab's, or any publication where you can get your hands on the data
+
 Idea #2: There are a ton of statistics on COVID cases and the increase over time. Try remaking one of those? You can even use [NY Times's Github Repository](https://github.com/nytimes/covid-19-data)
+
 Idea #3: Gapminder is a common dataset for students to explore [here](https://www.gapminder.org/data/). It has data on countries. E.g. wealth, child mortality, access to electricity, etc. and the data may suprise you. They even made a [TED talk about it](https://www.gapminder.org/ignorance/)
+
 Idea #4: Explore [some census data](https://www.census.gov/data/datasets.html) or some data from the NIH. 

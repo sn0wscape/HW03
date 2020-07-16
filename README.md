@@ -18,7 +18,7 @@ Note #2: you can choose to code using an R script or R markdown. I introduced sc
   * If you use an Rmd, you should really knit it to make a markdown document github can read. To do this create a new R markdown and choose any option (html will be the simplest) but change the output in the yaml header from "html_document" to be github_document (no quotes, see HW02 for an example).
   * IF you use a .R (R script), you should really save the figure (look into ggsave) and have that as an image file in your repository so your peers can check their results vs your own results. 
 
-Note #3, remember that there is a file size limit of 100 MB. Don't commit a file that large! You **will** regret it. If you need a dataset larger than this, there are a couple of options: 1. only use a small portion of that dataset. 2. put it up on Box or something with instructions to download it. Or even better: 3. Include a way to download it into your repository using download.file or something similar (and be sure to include the file name in the .gitignore)
+Note #3, remember that there is a file size limit of 100 MB. Don't commit a file that large! You **will** regret it. If you need a dataset larger than this, there are a couple of options: 1. only use a small portion of that dataset. 2. put it up on Box or something with instructions to download it. Or even better: 3. Include a way to download it into your repository programmatically (using R code, such as download.file or something similar). If you put large datasets into your repository and don't want to commit it, be sure to include the file name in the .gitignore. 
 
 Note #4, remember to edit this Readme file and explain what you are doing!
 

@@ -1,0 +1,30 @@
+---
+title: "HW03 - Daniel Krochmal"
+author: "Daniel Krochmal"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load libraries}
+library("ggplot2")
+library("magrittr")
+```
+
+## My plot
+
+```{r load dataset}
+yiip.df <- (
+  read.csv("yiip_size-exclusion.csv", header = TRUE, sep = ",")
+)
+
+```
+
+```{r}
+ggplot(data = yiip.df, aes(color = complex)) +
+  theme_classic() +
+  geom_line(aes(x = vol, y = a280))
+
+```

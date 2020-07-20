@@ -1,0 +1,30 @@
+---
+title: "HW03 - Daniel Krochmal"
+author: "Daniel Krochmal"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load libraries}
+library("ggplot2")
+library("magrittr")
+```
+
+## My plot
+
+```{r load dataset}
+coal_cons.df <- (
+  read.csv("coal_consumption_per_cap.csv", header = TRUE, sep = ",")
+)
+
+```
+
+```{r}
+ggplot(data = coal_cons.df, aes(color = country)) +
+  theme_classic() +
+  geom_line(aes(x = year, y = coal_cons))
+
+```

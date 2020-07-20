@@ -1,0 +1,161 @@
+year,coal_cons,country
+1985,0.38,China
+1986,0.39,China
+1987,0.416,China
+1988,0.438,China
+1989,0.451,China
+1990,0.45,China
+1991,0.465,China
+1992,0.481,China
+1993,0.507,China
+1994,0.535,China
+1995,0.537,China
+1996,0.557,China
+1997,0.542,China
+1998,0.534,China
+1999,0.546,China
+2000,0.55,China
+2001,0.575,China
+2002,0.627,China
+2003,0.743,China
+2004,0.861,China
+2005,1,China
+2006,1.09,China
+2007,1.19,China
+2008,1.2,China
+2009,1.25,China
+2010,1.29,China
+2011,1.39,China
+2012,1.4,China
+2013,1.42,China
+2014,1.41,China
+2015,1.37,China
+2016,1.34,China
+1985,0.269,Norway
+1986,0.239,Norway
+1987,0.23,Norway
+1988,0.235,Norway
+1989,0.205,Norway
+1990,0.191,Norway
+1991,0.169,Norway
+1992,0.169,Norway
+1993,0.182,Norway
+1994,0.204,Norway
+1995,0.221,Norway
+1996,0.219,Norway
+1997,0.216,Norway
+1998,0.233,Norway
+1999,0.217,Norway
+2000,0.221,Norway
+2001,0.196,Norway
+2002,0.169,Norway
+2003,0.164,Norway
+2004,0.184,Norway
+2005,0.156,Norway
+2006,0.133,Norway
+2007,0.144,Norway
+2008,0.147,Norway
+2009,0.116,Norway
+2010,0.156,Norway
+2011,0.171,Norway
+2012,0.163,Norway
+2013,0.153,Norway
+2014,0.165,Norway
+2015,0.158,Norway
+2016,0.156,Norway
+1985,2.69,Poland
+1986,2.74,Poland
+1987,2.83,Poland
+1988,2.74,Poland
+1989,2.61,Poland
+1990,2.07,Poland
+1991,2.04,Poland
+1992,1.97,Poland
+1993,1.94,Poland
+1994,1.8,Poland
+1995,1.83,Poland
+1996,1.87,Poland
+1997,1.82,Poland
+1998,1.64,Poland
+1999,1.57,Poland
+2000,1.46,Poland
+2001,1.44,Poland
+2002,1.42,Poland
+2003,1.46,Poland
+2004,1.42,Poland
+2005,1.44,Poland
+2006,1.5,Poland
+2007,1.46,Poland
+2008,1.44,Poland
+2009,1.35,Poland
+2010,1.44,Poland
+2011,1.43,Poland
+2012,1.34,Poland
+2013,1.39,Poland
+2014,1.29,Poland
+2015,1.27,Poland
+2016,1.28,Poland
+1985,1.39,Russia
+1986,1.41,Russia
+1987,1.42,Russia
+1988,1.39,Russia
+1989,1.34,Russia
+1990,1.24,Russia
+1991,1.13,Russia
+1992,1.06,Russia
+1993,0.955,Russia
+1994,0.835,Russia
+1995,0.805,Russia
+1996,0.791,Russia
+1997,0.731,Russia
+1998,0.686,Russia
+1999,0.694,Russia
+2000,0.722,Russia
+2001,0.708,Russia
+2002,0.714,Russia
+2003,0.721,Russia
+2004,0.693,Russia
+2005,0.659,Russia
+2006,0.677,Russia
+2007,0.656,Russia
+2008,0.704,Russia
+2009,0.644,Russia
+2010,0.632,Russia
+2011,0.656,Russia
+2012,0.686,Russia
+2013,0.63,Russia
+2014,0.609,Russia
+2015,0.641,Russia
+2016,0.606,Russia
+1985,1.83,United States
+1986,1.79,United States
+1987,1.85,United States
+1988,1.92,United States
+1989,1.92,United States
+1990,1.91,United States
+1991,1.88,United States
+1992,1.87,United States
+1993,1.92,United States
+1994,1.91,United States
+1995,1.91,United States
+1996,1.97,United States
+1997,1.99,United States
+1998,1.98,United States
+1999,1.95,United States
+2000,2.02,United States
+2001,1.94,United States
+2002,1.92,United States
+2003,1.94,United States
+2004,1.94,United States
+2005,1.95,United States
+2006,1.9,United States
+2007,1.91,United States
+2008,1.86,United States
+2009,1.62,United States
+2010,1.7,United States
+2011,1.59,United States
+2012,1.4,United States
+2013,1.44,United States
+2014,1.43,United States
+2015,1.22,United States
+2016,1.11,United States

@@ -17,14 +17,37 @@ library("magrittr")
 
 ```{r load dataset}
 yiip.df <- (
-  read.csv("yiip_size-exclusion.csv", header = TRUE, sep = ",")
+  read.csv("yiip_size-exclusion.csv", header = TRUE, sep = ",") %>%
+    subset(vol > 0 & vol < 25)
 )
 
 ```
 
 ```{r}
-ggplot(data = yiip.df, aes(color = complex)) +
+ggplot(data = yiip.df, aes(fill = complex, color = complex)) +
+  
+  geom_ribbon(aes(x = vol, ymin = 0, ymax = a280), alpha = 0.3) +
+  
   theme_classic() +
-  geom_line(aes(x = vol, y = a280))
+  
+    labs(
+      title = "Purification of YiiP-antibody complex by size exclusion chromatography",
+      subtitle = "Column: Superose 6 10/300 GL",
+      x = "Elution volume (ml)",
+      y = "A280 (mAu)"
+    ) +
+  
+  scale_x_continuous(breaks = seq(0, 25, by = 5)) +
+  
+  theme(
+    legend.position = c(0.2, 0.8),
+    legend.title = element_blank(),
+    legend.text = element_text(size = 8),
+    legend.background = element_rect(color = "black", size = 0.2),
+    axis.text.x = element_text(size = 10),
+    axis.text.y = element_text(size = 10),
+    )
+
+  annotate()
 
 ```
